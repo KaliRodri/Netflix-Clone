@@ -1,0 +1,57 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        margin-top: -18px;
+        margin-bottom: -18px;
+    }
+    
+
+    
+
+    .logo{
+        display: inline-block;
+        margin-right: 50%;
+        
+    }
+    
+    .container nav{
+        visibility: collapse;
+    }
+ 
+    .dropdown{
+        visibility: visible;
+        display: inline-block;
+        color: black;
+        
+    }
+
+    .dropdown a{
+        text-decoration: none;
+        color: red;
+    }
+
+    .botao1, .botao2{
+        display: flex;
+        margin-top: 5px;
+        width: 300px;
+    }
+    
+   
+}
+
+@media screen and (min-width: 601px){
+    .dropdown{
+        visibility: collapse;
+    }
+} 
+
+@media only screen and (min-width: 1000px) {
+    .descricao{
+        width: 50%;
+    }
+}

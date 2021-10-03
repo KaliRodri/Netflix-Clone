@@ -1,0 +1,155 @@
+/*Elementos Base */
+:root{
+   --vermelho: #E50914;
+   --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: var(--preto);
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.logo{
+    
+    cursor: pointer;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+   
+}
+nav a:hover{
+    color: rgb(129, 129, 129);
+   
+    
+    transition: color 0.2s ease-in;
+}
+
+/*Filme principal */
+.filmeprincipal{
+    font-size: 1.1em;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/img/poster.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.titulo{
+    font-size: 1.8em;
+}
+
+.descricao{
+    margin-bottom: 90px;
+    width: 70%;
+}
+
+.botao1{
+    background-color: rgba(160, 160, 160, 0);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 6px;
+    
+}
+
+.botao2{
+    background-color: rgba(160, 160, 160, 0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 6px;
+}
+
+.watch{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    
+}
+
+.add{
+    color: white;
+    background-color: rgba(95, 95, 95, 0.541);
+    border-radius: 6px;
+}
+
+main a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+main a:hover{
+    background-color: rgba(221, 221, 221, 0.74);
+    transition: background 0.15s ease-in-out;
+}
+
+.botao2 a:hover{
+    background-color: rgba(92, 91, 91, 0.74);
+    transition: background 0.15s ease-in-out;
+}
+
+.botao1 i{
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+.botao2 i{
+    margin-left: 5px;
+    margin-right: -8px;
+}
+
+.botao1 a:hover, .botao2 a:hover{
+    color: black;
+}
+
+.botao2 a:hover{
+    color: white;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.caroussel-filmes{
+    margin-top: 5px;
+}
+
+.title{
+    padding-left: 50px;
+    
+}
