@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Icone -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icon netflix.png">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/Bootstrap5/css/bootstrap.min.css">
 
@@ -20,8 +23,18 @@
 </head>
 <body>
     <header>
-        <div class="container ">
-            <h2 class="logo mt">NETFLIX</h2>
+        <div class="container">
+
+            <h2 class="logo mt"><img src="/img/Netflix Logo.png" width="150px" height="80px" alt=""></h2>
+            
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+                <a href="#">Podcasts</a>
+            </nav>
+
             <div class="dropdown text-end m-1">
                 <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                   Menu
@@ -34,22 +47,21 @@
                 </ul>
             </div> 
             
-            
-            <nav class="menu">
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-                <a href="#">Podcasts</a>
+            <nav class="menu2">
+                <i class="fas fa-search"></i>
+                <a href="#">Infantil</a>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-user-check"></i>
             </nav>
+            
         </div>
-        
     </header>
 
     <main>
         <div class="filmeprincipal">
             <div class="container">
-                <h3 class="titulo">Round 6</h3>
+                <h3 class="titulo"><img src="/img/SquidLogo2.png" alt=""></h3>
+                <p class="descricao1">Assista à 1 temporada agora</p>
                 <p class="descricao">Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais.</p>
                 <div class="botoes">
                  <button type="button" name="Assistir" class="botao1"><a href="#" class="watch"><i class="fas fa-play"></i>Assistir</a></button>
@@ -60,7 +72,7 @@
     </main>
     
     <div class="caroussel-filmes">
-        <h2 class="title">Filmes</h2>
+        <h2 class="title" id="title1">Filmes</h2>
         <div class="owl-carousel owl-theme">
             <div class="itens"><img src="/img/mini1.jpg" alt="" class="box-film">
             </div>

@@ -2,7 +2,7 @@
 @media screen and (max-width: 600px) {
     header .container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     
     header{
@@ -10,9 +10,6 @@
         margin-bottom: -18px;
     }
     
-
-    
-
     .logo{
         display: inline-block;
         margin-right: 50%;
@@ -30,18 +27,25 @@
         
     }
 
+    .container .titulo img{
+        margin-top: 100px;
+    }
+
     .dropdown a{
         text-decoration: none;
         color: red;
     }
 
     .botao1, .botao2{
-        display: flex;
-        margin-top: 5px;
-        width: 300px;
+        display: inline;
+        margin-bottom: 15px;
+        
+        
     }
     
-   
+    #title1{
+        margin-top: 50px;
+    }
 }
 
 @media screen and (min-width: 601px){
@@ -54,4 +58,5 @@
     .descricao{
         width: 50%;
     }
+
 }
